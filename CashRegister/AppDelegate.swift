@@ -10,10 +10,14 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
+    var productCollection : ProductCollection?
+    var historyCollection : HistoryCollection?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+       
+        productCollection = ProductCollection()
+        historyCollection = HistoryCollection()
+        
         return true
     }
 
