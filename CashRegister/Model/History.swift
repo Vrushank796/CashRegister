@@ -22,6 +22,4 @@ class History{
         totalPrice = totPrice
         purchaseDate = pDate
     }
-    
-    
 }

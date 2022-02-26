@@ -10,7 +10,7 @@ import Foundation
 class ProductCollection{
     
     //Define and initialize the allProducts array to store the product information 
-    var allProducts : [Product] = [Product(pName: "Pants",qty: 20,unitPrice: 50.7),Product(pName: "Shoes",qty: 50,unitPrice: 90),Product(pName: "Hats",qty: 10,unitPrice: 20.5),Product(pName: "Tshirts",qty: 10,unitPrice: 50.7),Product(pName: "Dresses",qty: 24,unitPrice: 50.7)];
+    var allProducts : [Product] = [Product(pName: "Jackets",qty: 50,unitPrice: 80),Product(pName: "Pants",qty: 20,unitPrice: 30),Product(pName: "Shoes",qty: 50,unitPrice: 79.90),Product(pName: "Hats",qty: 10,unitPrice: 20.5),Product(pName: "Tshirts",qty: 10,unitPrice: 25),Product(pName: "Dresses",qty: 24,unitPrice: 95.50)];
     
     //Calculate Total Price of the product
     func calculateTotalPrice(n:String,q:Int) -> Float{
